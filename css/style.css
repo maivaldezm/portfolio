@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2rem;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: black;
+    width: 100vw;
+}
+
+header {
+    display: inline-flex;
+}
+
+.bungee {
+    font-size: 2rem;
+    font-family: 'Bungee Shade', cursive;
+    color: #FD5825;
+}
+
+/* NAVEGADOR */
+
+nav {
+    width: 100vmax;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+div {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+nav a {
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+span {
+    background-color: #F7EFE5;
+    background-size: 0.2em;
+}
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+}
+
